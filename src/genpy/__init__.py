@@ -33,6 +33,7 @@
 from . rostime import Time, Duration, TVal
 from . message import Message, SerializationError, DeserializationError, MessageException, struct_I
 from . import genmsg
+from . import dynamic
 
 __all__ = [
     'Time', 'Duration', 'TVal',
