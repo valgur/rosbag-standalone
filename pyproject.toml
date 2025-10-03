@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rosbag-standalone"
-version = "1.17.4"
-description = "Standalone version of the ROS1 rosbag library - Python package for reading and writing ROS1 bag files."
+version = "1.17.4.0"
+description = "A standalone version of the ROS1 rosbag library - Python package for reading and writing ROS1 bag files."
 readme = "README.md"
 license = { text = "BSD-3-Clause" }
 authors = [
@@ -23,6 +23,7 @@ keywords = ["ros", "ros1", "rosbag", "robotics"]
 
 [project.urls]
 Homepage = "https://github.com/valgur/rosbag-standalone"
+Documentation = "https://wiki.ros.org/rosbag"
 
 [tool.setuptools.packages.find]
 where = ["src"]
