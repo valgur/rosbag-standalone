@@ -26,4 +26,4 @@ Homepage = "https://github.com/valgur/rosbag-standalone"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["rosbag"]
+include = ["*"]
